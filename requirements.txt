@@ -1,0 +1,9 @@
+hypercorn
+motor
+openpyxl
+pandas
+pymongo
+pytz
+Quart
+Quart-Session
+Telethon

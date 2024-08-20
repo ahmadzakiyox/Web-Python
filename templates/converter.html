@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convert VCF</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="bg-light py-3 py-md-5 vh-100">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12">
+          <div class="bg-white p-4 p-md-5 rounded shadow-sm">
+            <ul class="nav nav-pills justify-content-center mb-4">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Generator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/converter">Converter</a>
+              </li>
+              {% if session['role'] == 'admin' %}
+              <li class="nav-item">
+                <a class="nav-link" href="/admin">Admin</a>
+              </li>
+              {% endif %}
+              <li class="nav-item">
+                <a class="nav-link" href="/logout">Logout</a>
+              </li>
+            </ul>
+
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+              {% for message in messages %}
+              <div>{{ message }}</div>
+              {% endfor %}
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% else %}
+            <div class="alert alert-info alert-dismissible fade show" role="alert">
+              <div>Start bot {{bot_username}} agar file bisa dikirim ke telegram mu</div>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endif %}
+            {% endwith %}
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                  type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">TXT to VCF</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                  type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">XLSX ke VCF</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                  type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">CSV to VCF</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="vcf-tab" data-bs-toggle="tab" data-bs-target="#vcf-tab-pane"
+                  type="button" role="tab" aria-controls="vcf-tab-pane" aria-selected="false">VCF to Other</button>
+              </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active py-3" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                tabindex="0">
+                <form action="/convert_txt_to_vcf" method="post" enctype="multipart/form-data">
+                  <div class="mb-3">
+                    <label for="txtFile" class="form-label">Upload TXT File</label>
+                    <input type="file" class="form-control" id="txtFile" name="txt_file" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="fileName" class="form-label">New VCF Filename</label>
+                    <input type="text" class="form-control" id="fileName" name="vcf_file_name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="contactName" class="form-label">Contact Name</label>
+                    <input type="text" class="form-control" id="contactName" name="contact_name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="totalContact" class="form-label">Total Contact</label>
+                    <input type="number" class="form-control" id="totalContact" name="total_contact" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="totalFile" class="form-label">Total File</label>
+                    <input type="number" class="form-control" id="totalFile" name="total_file" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="id_tele">Username / ID Telegram</label>
+                    <input type="text" class="form-control" placeholder="Username / ID Telegram" name="id_tele"
+                      name="id_tele" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Convert</button>
+                </form>
+              </div>
+              <div class="tab-pane fade py-3" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                tabindex="0">
+                <form action="/convert_xlsx_to_vcf" method="post" enctype="multipart/form-data">
+                  <div class="mb-3">
+                    <label for="xlsxFile" class="form-label">Upload XLSX File</label>
+                    <input type="file" class="form-control" id="xlsxFile" name="xlsx_file" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="fileName" class="form-label">New VCF Filename</label>
+                    <input type="text" class="form-control" id="fileName" name="vcf_file_name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="contactName" class="form-label">Contact Name</label>
+                    <input type="text" class="form-control" id="contactName" name="contact_name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="totalContact" class="form-label">Total Contact</label>
+                    <input type="number" class="form-control" id="totalContact" name="total_contact" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="totalFile" class="form-label">Total File</label>
+                    <input type="number" class="form-control" id="totalFile" name="total_file" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="id_tele">Username / ID Telegram</label>
+                    <input type="text" class="form-control" placeholder="Username / ID Telegram" name="id_tele"
+                      name="id_tele" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Convert</button>
+                </form>
+              </div>
+              <div class="tab-pane fade py-3" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                tabindex="0">
+                <form action="/convert_csv_to_vcf" method="post" enctype="multipart/form-data">
+                  <div class="mb-3">
+                    <label for="csvFile" class="form-label">Upload CSV File</label>
+                    <input type="file" class="form-control" id="csvFile" name="csv_file" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="fileName" class="form-label">New VCF Filename</label>
+                    <input type="text" class="form-control" id="fileName" name="vcf_file_name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="contactName" class="form-label">Contact Name</label>
+                    <input type="text" class="form-control" id="contactName" name="contact_name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="totalContact" class="form-label">Total Contact</label>
+                    <input type="number" class="form-control" id="totalContact" name="total_contact" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="totalFile" class="form-label">Total File</label>
+                    <input type="number" class="form-control" id="totalFile" name="total_file" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="id_tele">Username / ID Telegram</label>
+                    <input type="text" class="form-control" placeholder="Username / ID Telegram" name="id_tele"
+                      name="id_tele" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Convert</button>
+                </form>
+              </div>
+              <div class="tab-pane fade py-3" id="vcf-tab-pane" role="tabpanel" aria-labelledby="vcf-tab"
+                tabindex="0">
+                <form action="/convert_vcf_to_other" method="post" enctype="multipart/form-data">
+                  <div class="mb-3">
+                    <label for="vcfFile" class="form-label">Upload VCF File</label>
+                    <input type="file" class="form-control" id="vcfFile" name="vcf_file" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="fileName" class="form-label">New Filename</label>
+                    <input type="text" class="form-control" id="fileName" name="file_name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="convert" class="form-label">Convert to</label>
+                    <select class="form-select" id="convert" name="convert" required>
+                      <option value="txt">TXT</option>
+                      <option value="xlsx">XLSX</option>
+                      <option value="csv">CSV</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="id_tele">Username / ID Telegram</label>
+                    <input type="text" class="form-control" placeholder="Username / ID Telegram" name="id_tele"
+                      name="id_tele" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Convert</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

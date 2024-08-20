@@ -1,0 +1,1341 @@
+[2024-06-18 15:50:07 +0000] [69131] [INFO] Running on http://0.0.0.0:8080 (CTRL + C to quit)
+[2024-06-18 15:51:13 +0000] [69198] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-06-18 16:32:10 +0000] [70779] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-06-22 13:53:44 +0000] [109309] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-06-23 07:40:38 +0000] [127501] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-06-23 15:37:40 +0000] [130244] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-01 08:16:17 +0000] [241001] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-01 15:52:58 +0000] [243309] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-02 04:29:04 +0000] [248064] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-02 06:14:25 +0000] [249869] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-02 06:40:57 +0000] [250119] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Server response had invalid buffer: Invalid response buffer (HTTP code 429)
+Server indicated flood error at transport level: Invalid response buffer (HTTP code 429)
+[2024-07-02 07:10:30 +0000] [250453] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-02 07:45:53 +0000] [251404] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Server closed the connection: 4 bytes read on a total of 8 expected bytes
+Server response had invalid buffer: Invalid response buffer (HTTP code -180)
+Server response had invalid buffer: Invalid response buffer (too short b'\x00\x00\x00\x00\x00\xef\x0en')
+Server sent invalid buffer
+Traceback (most recent call last):
+  File "/home/venv/lib/python3.10/site-packages/telethon/network/mtprotosender.py", line 507, in _recv_loop
+    body = await self._connection.recv()
+  File "/home/venv/lib/python3.10/site-packages/telethon/network/connection/connection.py", line 304, in recv
+    raise err
+  File "/home/venv/lib/python3.10/site-packages/telethon/network/connection/connection.py", line 335, in _recv_loop
+    data = await self._recv()
+  File "/home/venv/lib/python3.10/site-packages/telethon/network/connection/connection.py", line 374, in _recv
+    return await self._codec.read_packet(self._reader)
+  File "/home/venv/lib/python3.10/site-packages/telethon/network/connection/tcpfull.py", line 32, in read_packet
+    raise InvalidBufferError(body)
+telethon.errors.common.InvalidBufferError: Invalid response buffer (HTTP code -180)
+Server sent invalid buffer
+Traceback (most recent call last):
+  File "/home/venv/lib/python3.10/site-packages/telethon/network/mtprotosender.py", line 507, in _recv_loop
+    body = await self._connection.recv()
+  File "/home/venv/lib/python3.10/site-packages/telethon/network/connection/connection.py", line 304, in recv
+    raise err
+  File "/home/venv/lib/python3.10/site-packages/telethon/network/connection/connection.py", line 335, in _recv_loop
+    data = await self._recv()
+  File "/home/venv/lib/python3.10/site-packages/telethon/network/connection/connection.py", line 374, in _recv
+    return await self._codec.read_packet(self._reader)
+  File "/home/venv/lib/python3.10/site-packages/telethon/network/connection/tcpfull.py", line 37, in read_packet
+    raise InvalidBufferError(packet_len_seq)
+telethon.errors.common.InvalidBufferError: Invalid response buffer (too short b'\x00\x00\x00\x00\x00\xef\x0en')
+Server closed the connection: 4 bytes read on a total of 8 expected bytes
+Server response had invalid buffer: Invalid response buffer (HTTP code 429)
+Server indicated flood error at transport level: Invalid response buffer (HTTP code 429)
+[2024-07-02 10:43:19 +0000] [253112] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Server response had invalid buffer: Invalid response buffer (HTTP code 429)
+Server indicated flood error at transport level: Invalid response buffer (HTTP code 429)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-02 12:56:53 +0000] [254572] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-03 03:32:15 +0000] [263067] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-03 08:48:07 +0000] [265992] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-03 11:59:02 +0000] [266787] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-03 11:59:23 +0000] [266807] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-04 16:06:57 +0000] [278933] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-05 06:47:22 +0000] [285305] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-05 06:56:36 +0000] [285364] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-05 07:00:08 +0000] [285408] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-05 07:12:18 +0000] [285475] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-05 07:15:16 +0000] [285539] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-05 07:23:32 +0000] [285714] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-05 07:41:05 +0000] [285806] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-05 07:42:25 +0000] [285828] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-05 07:58:24 +0000] [286262] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-05 08:33:02 +0000] [286737] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-05 09:15:23 +0000] [286939] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-05 09:16:27 +0000] [286962] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-05 09:41:55 +0000] [287113] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-05 09:42:13 +0000] [287131] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-05 10:30:26 +0000] [287421] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-05 17:21:18,211] ERROR in app: Exception on request POST /generate
+Traceback (most recent call last):
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1403, in handle_request
+    return await self.full_dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1441, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1029, in handle_user_exception
+    raise error
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1439, in full_dispatch_request
+    result = await self.dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1535, in dispatch_request
+    return await self.ensure_async(handler)(**request_.view_args)  # type: ignore
+  File "/home/txttovcf-web/app.py", line 81, in generate
+    user = db.users.find_one({'username': session['username']})
+  File "/home/venv/lib/python3.10/site-packages/flask/sessions.py", line 84, in __getitem__
+    return super().__getitem__(key)
+KeyError: 'username'
+[2024-07-05 17:21:24,440] ERROR in app: Exception on request POST /generate
+Traceback (most recent call last):
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1403, in handle_request
+    return await self.full_dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1441, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1029, in handle_user_exception
+    raise error
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1439, in full_dispatch_request
+    result = await self.dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1535, in dispatch_request
+    return await self.ensure_async(handler)(**request_.view_args)  # type: ignore
+  File "/home/txttovcf-web/app.py", line 81, in generate
+    user = db.users.find_one({'username': session['username']})
+  File "/home/venv/lib/python3.10/site-packages/flask/sessions.py", line 84, in __getitem__
+    return super().__getitem__(key)
+KeyError: 'username'
+[2024-07-05 17:21:27,368] ERROR in app: Exception on request POST /generate
+Traceback (most recent call last):
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1403, in handle_request
+    return await self.full_dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1441, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1029, in handle_user_exception
+    raise error
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1439, in full_dispatch_request
+    result = await self.dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1535, in dispatch_request
+    return await self.ensure_async(handler)(**request_.view_args)  # type: ignore
+  File "/home/txttovcf-web/app.py", line 81, in generate
+    user = db.users.find_one({'username': session['username']})
+  File "/home/venv/lib/python3.10/site-packages/flask/sessions.py", line 84, in __getitem__
+    return super().__getitem__(key)
+KeyError: 'username'
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-06 04:55:32 +0000] [296328] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Server response had invalid buffer: Invalid response buffer (HTTP code 429)
+Server indicated flood error at transport level: Invalid response buffer (HTTP code 429)
+[2024-07-06 13:00:28 +0000] [304329] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Server response had invalid buffer: Invalid response buffer (HTTP code 429)
+Server indicated flood error at transport level: Invalid response buffer (HTTP code 429)
+[2024-07-06 14:36:04 +0000] [306002] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-07 03:02:08 +0000] [322842] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-07 03:22:56 +0000] [324029] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-07 03:26:22 +0000] [324287] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-07 04:37:26 +0000] [327477] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-07 04:47:00,010] ERROR in app: Exception on request POST /convert_xlsx_to_vcf
+Traceback (most recent call last):
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1403, in handle_request
+    return await self.full_dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1441, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1029, in handle_user_exception
+    raise error
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1439, in full_dispatch_request
+    result = await self.dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1535, in dispatch_request
+    return await self.ensure_async(handler)(**request_.view_args)  # type: ignore
+  File "/home/txttovcf-web/app.py", line 154, in convert_xlsx_to_vcf
+    files = xlsx_to_vcf(xlsx_file_path, vcf_file_name, contact_name, total_contact, total_file)
+  File "/home/txttovcf-web/helpers.py", line 250, in xlsx_to_vcf
+    txt_file_name = xlsx_to_txt(xlsx_file, vcf_file_name)
+  File "/home/txttovcf-web/helpers.py", line 243, in xlsx_to_txt
+    df = pd.read_excel(xlsx_file)
+  File "/home/venv/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 495, in read_excel
+    io = ExcelFile(
+  File "/home/venv/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1554, in __init__
+    raise ValueError(
+ValueError: Excel file format cannot be determined, you must specify an engine manually.
+[2024-07-07 05:18:53 +0000] [329313] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+Server closed the connection: 0 bytes read on a total of 8 expected bytes
+Server response had invalid buffer: Invalid response buffer (HTTP code 429)
+Server indicated flood error at transport level: Invalid response buffer (HTTP code 429)
+[2024-07-08 03:40:22 +0000] [384579] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-08 16:23:13,484] ERROR in app: Exception on request POST /generate
+Traceback (most recent call last):
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1403, in handle_request
+    return await self.full_dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1441, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1029, in handle_user_exception
+    raise error
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1439, in full_dispatch_request
+    result = await self.dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1535, in dispatch_request
+    return await self.ensure_async(handler)(**request_.view_args)  # type: ignore
+  File "/home/txttovcf-web/app.py", line 81, in generate
+    user = db.users.find_one({'username': session['username']})
+  File "/home/venv/lib/python3.10/site-packages/flask/sessions.py", line 84, in __getitem__
+    return super().__getitem__(key)
+KeyError: 'username'
+[2024-07-08 16:23:41,226] ERROR in app: Exception on request POST /generate
+Traceback (most recent call last):
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1403, in handle_request
+    return await self.full_dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1441, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1029, in handle_user_exception
+    raise error
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1439, in full_dispatch_request
+    result = await self.dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1535, in dispatch_request
+    return await self.ensure_async(handler)(**request_.view_args)  # type: ignore
+  File "/home/txttovcf-web/app.py", line 81, in generate
+    user = db.users.find_one({'username': session['username']})
+  File "/home/venv/lib/python3.10/site-packages/flask/sessions.py", line 84, in __getitem__
+    return super().__getitem__(key)
+KeyError: 'username'
+[2024-07-08 16:24:05,853] ERROR in app: Exception on request POST /generate
+Traceback (most recent call last):
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1403, in handle_request
+    return await self.full_dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1441, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1029, in handle_user_exception
+    raise error
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1439, in full_dispatch_request
+    result = await self.dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1535, in dispatch_request
+    return await self.ensure_async(handler)(**request_.view_args)  # type: ignore
+  File "/home/txttovcf-web/app.py", line 81, in generate
+    user = db.users.find_one({'username': session['username']})
+  File "/home/venv/lib/python3.10/site-packages/flask/sessions.py", line 84, in __getitem__
+    return super().__getitem__(key)
+KeyError: 'username'
+[2024-07-08 16:24:12,573] ERROR in app: Exception on request POST /generate
+Traceback (most recent call last):
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1403, in handle_request
+    return await self.full_dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1441, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1029, in handle_user_exception
+    raise error
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1439, in full_dispatch_request
+    result = await self.dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1535, in dispatch_request
+    return await self.ensure_async(handler)(**request_.view_args)  # type: ignore
+  File "/home/txttovcf-web/app.py", line 81, in generate
+    user = db.users.find_one({'username': session['username']})
+  File "/home/venv/lib/python3.10/site-packages/flask/sessions.py", line 84, in __getitem__
+    return super().__getitem__(key)
+KeyError: 'username'
+[2024-07-08 16:25:16,966] ERROR in app: Exception on request POST /generate
+Traceback (most recent call last):
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1403, in handle_request
+    return await self.full_dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1441, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1029, in handle_user_exception
+    raise error
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1439, in full_dispatch_request
+    result = await self.dispatch_request(request_context)
+  File "/home/venv/lib/python3.10/site-packages/quart/app.py", line 1535, in dispatch_request
+    return await self.ensure_async(handler)(**request_.view_args)  # type: ignore
+  File "/home/txttovcf-web/app.py", line 81, in generate
+    user = db.users.find_one({'username': session['username']})
+  File "/home/venv/lib/python3.10/site-packages/flask/sessions.py", line 84, in __getitem__
+    return super().__getitem__(key)
+KeyError: 'username'
+Server sent a very old message with ID 7389449305236254721, ignoring (see FAQ for details)
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/venv/bin/hypercorn", line 8, in <module>
+    sys.exit(main())
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/__main__.py", line 304, in main
+    return run(config)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/run.py", line 39, in run
+    sockets = config.create_sockets()
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 206, in create_sockets
+    insecure_sockets = self._create_sockets(self.bind)
+  File "/home/venv/lib/python3.10/site-packages/hypercorn/config.py", line 273, in _create_sockets
+    sock.bind(binding)
+OSError: [Errno 98] Address already in use
+[2024-07-09 02:20:01 +0000] [397897] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)
+[2024-07-09 02:24:49 +0000] [398028] [INFO] Running on http://0.0.0.0:8000 (CTRL + C to quit)

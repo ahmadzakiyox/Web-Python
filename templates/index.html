@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convert VCF</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="bg-light py-3 py-md-5 vh-100">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12">
+          <div class="bg-white p-4 p-md-5 rounded shadow-sm">
+            <ul class="nav nav-pills justify-content-center mb-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Generator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/converter">Converter</a>
+              </li>
+              {% if session['role'] == 'admin' %}
+              <li class="nav-item">
+                <a class="nav-link" href="/admin">Admin</a>
+              </li>
+              {% endif %}
+              <li class="nav-item">
+                <a class="nav-link" href="/logout">Logout</a>
+              </li>
+            </ul>
+
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              {% for message in messages %}
+              <div>{{ message }}</div>
+              {% endfor %}
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% else %}
+            <div class="alert alert-info alert-dismissible fade show" role="alert">
+              <div>Start bot {{ bot_username }} agar file bisa dikirim ke telegram mu</div>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endif %}
+            {% endwith %}
+
+            <form action="/generate" method="post" class="mt-4">
+              <div class="row mb-3">
+                <div class="col-sm-12 col-md-4">
+                  <h5>Admin: <span id="admin_counter">0</span> nomor ditambahkan</h5>
+                  <textarea name="admins" id="admins" class="form-control" rows="5"
+                    placeholder="Masukkan nomor Admin disini"></textarea>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <h5>Navy: <span id="navy_counter">0</span> nomor ditambahkan</h5>
+                  <textarea name="navys" id="navys" class="form-control" rows="5"
+                    placeholder="Masukkan nomor Navy disini"></textarea>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <h5>Client: <span id="client_counter">0</span> nomor ditambahkan</h5>
+                  <textarea name="clients" id="clients" class="form-control" rows="5"
+                    placeholder="Masukkan nomor Client disini"></textarea>
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-sm-12 col-md-4">
+                  <label for="admin_name">Nama kontak Admin:</label>
+                  <input type="text" name="admin_name" class="form-control" placeholder="Admin">
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <label for="navy_name">Nama kontak Navy:</label>
+                  <input type="text" name="navy_name" class="form-control" placeholder="Navy">
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <label for="client_name">Nama kontak Client:</label>
+                  <input type="text" name="client_name" class="form-control" placeholder="Client">
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-sm-12 col-md-4">
+                  <label for="nama_file">Nama File</label>
+                  <input type="text" class="form-control" placeholder="Nama File" name="nama_file" id="nama_file"
+                    required>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <label for="name_number">Penomoran Nama Kontak</label>
+                  <select class="form-select" id="name_number" name="name_number" required>
+                    <option value="1">1 (contoh: Nama 1)</option>
+                    <option value="2">-1 (contoh: Nama-1)</option>
+                  </select>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <label for="totalc">Total Client per File</label>
+                  <input type="number" class="form-control" placeholder="Total Client per File" name="totalc"
+                    name="totalc" required>
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-sm-12 col-md-6">
+                  <label for="id_tele">Username / ID Telegram</label>
+                  <input type="text" class="form-control" placeholder="Username / ID Telegram" name="id_tele"
+                    name="id_tele" required>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <label for="hasil">Hasil</label>
+                  <select class="form-select" id="hasil" name="hasil" required>
+                    <option value="3">Pecah (admin dan navy - client)</option>
+                    <option value="1">Jadi satu</option>
+                    <option value="2">Pecah</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const adminsTextarea = document.getElementById('admins');
+      const navysTextarea = document.getElementById('navys');
+      const clientsTextarea = document.getElementById('clients');
+
+      function updateCounter(textarea, counterId) {
+        const lines = textarea.value.split('\n');
+        let validLines = 0;
+        lines.forEach(line => {
+          if (line.trim().match(/^\d+$/)) {
+            validLines++;
+          }
+        });
+        document.getElementById(counterId).innerText = validLines;
+      }
+
+      adminsTextarea.addEventListener('input', () => updateCounter(adminsTextarea, 'admin_counter'));
+      navysTextarea.addEventListener('input', () => updateCounter(navysTextarea, 'navy_counter'));
+      clientsTextarea.addEventListener('input', () => updateCounter(clientsTextarea, 'client_counter'));
+
+      updateCounter(adminsTextarea, 'admin_counter');
+      updateCounter(navysTextarea, 'navy_counter');
+      updateCounter(clientsTextarea, 'client_counter');
+    });
+  </script>
+</body>
+
+</html>
