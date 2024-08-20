@@ -224,7 +224,7 @@ def vcf_to_other(vcf_file, file_name, file_type):
 
   for line in lines:
     if 'TEL;' in line.strip():
-      contact = findall('\d+', line.strip())[0]
+      contact = findall(r'\d+', line.strip())[0]
       contacts.append(contact)
 
   file_name = f"files/{file_name}.{file_type}"
